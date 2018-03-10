@@ -6,6 +6,7 @@
 
 /*** ArrayList¿« ¡§¿« ****/
 #define LIST_LEN	100
+
 typedef int LData;
 
 typedef struct __ArrayList

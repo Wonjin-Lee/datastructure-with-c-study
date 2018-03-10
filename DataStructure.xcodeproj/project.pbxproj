@@ -6,12 +6,6 @@
 	objectVersion = 48;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		653AC41D2053A7A600027325 /* ArrayList.c in Sources */ = {isa = PBXBuildFile; fileRef = 653AC41C2053A76400027325 /* ArrayList.c */; };
-		653AC41E2053A7A600027325 /* ArrayList.h in Sources */ = {isa = PBXBuildFile; fileRef = 653AC41B2053A76400027325 /* ArrayList.h */; };
-		653E1D4D20525B4700487E32 /* ArrayListMain.c in Sources */ = {isa = PBXBuildFile; fileRef = 653E1D4C20525B4700487E32 /* ArrayListMain.c */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		6552D62F2051733400D98226 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -31,6 +25,9 @@
 		653E1D4C20525B4700487E32 /* ArrayListMain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ArrayListMain.c; sourceTree = "<group>"; };
 		6552D6312051733400D98226 /* DataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		6552D6342051733400D98226 /* LinearSearch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinearSearch.c; sourceTree = "<group>"; };
+		656297162053BB0A00064E6C /* Point.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Point.h; sourceTree = "<group>"; };
+		656297172053BB0A00064E6C /* Point.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Point.c; sourceTree = "<group>"; };
+		6562971A2053C0AF00064E6C /* PointListMain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PointListMain.c; sourceTree = "<group>"; };
 		65F2D77D20518DBC00B6C381 /* Fibo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Fibo.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +64,7 @@
 		6552D6282051733400D98226 = {
 			isa = PBXGroup;
 			children = (
+				656297152053BADF00064E6C /* ArrayList_Struct */,
 				653AC4212053AFD600027325 /* LinearSearch */,
 				653AC41A2053A75100027325 /* ArrayList */,
 				6552D6332051733400D98226 /* Recursion */,
@@ -88,6 +86,16 @@
 				65F2D77D20518DBC00B6C381 /* Fibo.c */,
 			);
 			path = Recursion;
+			sourceTree = "<group>";
+		};
+		656297152053BADF00064E6C /* ArrayList_Struct */ = {
+			isa = PBXGroup;
+			children = (
+				656297162053BB0A00064E6C /* Point.h */,
+				656297172053BB0A00064E6C /* Point.c */,
+				6562971A2053C0AF00064E6C /* PointListMain.c */,
+			);
+			path = ArrayList_Struct;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,9 +155,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				653AC41D2053A7A600027325 /* ArrayList.c in Sources */,
-				653AC41E2053A7A600027325 /* ArrayList.h in Sources */,
-				653E1D4D20525B4700487E32 /* ArrayListMain.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
