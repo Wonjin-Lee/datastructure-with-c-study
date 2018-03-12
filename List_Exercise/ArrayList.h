@@ -7,7 +7,9 @@
 /*** ArrayList¿« ¡§¿« ****/
 #define LIST_LEN	100
 
-typedef int LData;
+#include "NameCard.h"
+
+typedef NameCard * LData;
 
 typedef struct __ArrayList
 {

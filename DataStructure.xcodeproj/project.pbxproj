@@ -29,6 +29,20 @@
 		656297172053BB0A00064E6C /* Point.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Point.c; sourceTree = "<group>"; };
 		6562971A2053C0AF00064E6C /* PointListMain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PointListMain.c; sourceTree = "<group>"; };
 		65F2D77D20518DBC00B6C381 /* Fibo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Fibo.c; sourceTree = "<group>"; };
+		65F2F14C2054E3F7002F47BE /* NameCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NameCard.h; sourceTree = "<group>"; };
+		65F2F14D2054E3F7002F47BE /* NameCard.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = NameCard.c; sourceTree = "<group>"; };
+		65F2F14F2054EA59002F47BE /* NameCardMain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = NameCardMain.c; sourceTree = "<group>"; };
+		65F2F1552054F4CA002F47BE /* NameCard.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = NameCard.c; path = "../../Data_Structure_Src/Ch03/Prob03-2/NameCard.c"; sourceTree = "<group>"; };
+		65F2F1562054F4CA002F47BE /* ArrayList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ArrayList.c; path = "../../Data_Structure_Src/Ch03/Prob03-2/ArrayList.c"; sourceTree = "<group>"; };
+		65F2F1572054F4CA002F47BE /* ArrayList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArrayList.h; path = "../../Data_Structure_Src/Ch03/Prob03-2/ArrayList.h"; sourceTree = "<group>"; };
+		65F2F1582054F4CB002F47BE /* NameCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NameCard.h; path = "../../Data_Structure_Src/Ch03/Prob03-2/NameCard.h"; sourceTree = "<group>"; };
+		65F2F1592054F4CB002F47BE /* NameCardListMain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = NameCardListMain.c; path = "../../Data_Structure_Src/Ch03/Prob03-2/NameCardListMain.c"; sourceTree = "<group>"; };
+		65F2F1682054F6BA002F47BE /* ListUseMain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ListUseMain.c; path = "../../Data_Structure_Src/Ch03/Prob03-1/ListUseMain.c"; sourceTree = "<group>"; };
+		65F2F1692054F6BA002F47BE /* ArrayList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ArrayList.c; path = "../../Data_Structure_Src/Ch03/Prob03-1/ArrayList.c"; sourceTree = "<group>"; };
+		65F2F16A2054F6BA002F47BE /* ArrayList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArrayList.h; path = "../../Data_Structure_Src/Ch03/Prob03-1/ArrayList.h"; sourceTree = "<group>"; };
+		65F2F16E20550439002F47BE /* LinkedRead.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinkedRead.c; sourceTree = "<group>"; };
+		65F2F17120555C95002F47BE /* free.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = free.c; sourceTree = "<group>"; };
+		65F2F17520562441002F47BE /* LinkedRead_Repeat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinkedRead_Repeat.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,8 +59,6 @@
 		653AC41A2053A75100027325 /* ArrayList */ = {
 			isa = PBXGroup;
 			children = (
-				653AC41C2053A76400027325 /* ArrayList.c */,
-				653AC41B2053A76400027325 /* ArrayList.h */,
 				653E1D4C20525B4700487E32 /* ArrayListMain.c */,
 				653AC41F2053A7CB00027325 /* ArrayListMethodPrac.c */,
 			);
@@ -64,6 +76,11 @@
 		6552D6282051733400D98226 = {
 			isa = PBXGroup;
 			children = (
+				65F2F17020555C7E002F47BE /* FREE */,
+				65F2F16D2055041F002F47BE /* LinkedRead */,
+				65F2F1672054F69C002F47BE /* Problem3-1 */,
+				65F2F1542054F4A2002F47BE /* Problem3-2 */,
+				65F2F14B2054E3C3002F47BE /* List_Exercise */,
 				656297152053BADF00064E6C /* ArrayList_Struct */,
 				653AC4212053AFD600027325 /* LinearSearch */,
 				653AC41A2053A75100027325 /* ArrayList */,
@@ -96,6 +113,57 @@
 				6562971A2053C0AF00064E6C /* PointListMain.c */,
 			);
 			path = ArrayList_Struct;
+			sourceTree = "<group>";
+		};
+		65F2F14B2054E3C3002F47BE /* List_Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				65F2F14C2054E3F7002F47BE /* NameCard.h */,
+				65F2F14D2054E3F7002F47BE /* NameCard.c */,
+				65F2F14F2054EA59002F47BE /* NameCardMain.c */,
+				653AC41C2053A76400027325 /* ArrayList.c */,
+				653AC41B2053A76400027325 /* ArrayList.h */,
+			);
+			path = List_Exercise;
+			sourceTree = "<group>";
+		};
+		65F2F1542054F4A2002F47BE /* Problem3-2 */ = {
+			isa = PBXGroup;
+			children = (
+				65F2F1562054F4CA002F47BE /* ArrayList.c */,
+				65F2F1572054F4CA002F47BE /* ArrayList.h */,
+				65F2F1552054F4CA002F47BE /* NameCard.c */,
+				65F2F1582054F4CB002F47BE /* NameCard.h */,
+				65F2F1592054F4CB002F47BE /* NameCardListMain.c */,
+			);
+			path = "Problem3-2";
+			sourceTree = "<group>";
+		};
+		65F2F1672054F69C002F47BE /* Problem3-1 */ = {
+			isa = PBXGroup;
+			children = (
+				65F2F1692054F6BA002F47BE /* ArrayList.c */,
+				65F2F16A2054F6BA002F47BE /* ArrayList.h */,
+				65F2F1682054F6BA002F47BE /* ListUseMain.c */,
+			);
+			path = "Problem3-1";
+			sourceTree = "<group>";
+		};
+		65F2F16D2055041F002F47BE /* LinkedRead */ = {
+			isa = PBXGroup;
+			children = (
+				65F2F16E20550439002F47BE /* LinkedRead.c */,
+				65F2F17520562441002F47BE /* LinkedRead_Repeat.c */,
+			);
+			path = LinkedRead;
+			sourceTree = "<group>";
+		};
+		65F2F17020555C7E002F47BE /* FREE */ = {
+			isa = PBXGroup;
+			children = (
+				65F2F17120555C95002F47BE /* free.c */,
+			);
+			path = FREE;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
