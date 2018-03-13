@@ -9,12 +9,25 @@
 #include <stdio.h>
 #include "DLinkedList.h"
 
+// 우선 순위 정하는 방법을 기술한 함수.
+// 사용자가 원하는대로 기술할 수 있도록 메인에서 정의.
+int WhoIsPrecede(int d1, int d2)
+{
+    if(d1 < d2)
+        return 0;
+    else
+        return 1;
+}
+
 int main(void)
 {
     // 리스트의 생성 및 초기화
     List list;
     int data;
     ListInit(&list);
+    
+    // 위에서 정의한 정렬 방법을 기술한 함수를 매개변수로 초기화.
+    SetSortRule(&list, WhoIsPrecede);
     
     // 5개의 데이터 저장
     LInsert(&list, 11); LInsert(&list, 11);

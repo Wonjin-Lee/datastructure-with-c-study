@@ -37,7 +37,20 @@ void FInsert(List * plist, LData data)
 // 정렬 기준이 있을 때 데이터를 기준에 맞게 삽입하는 함수.
 void SInsert(List * plist, LData data)
 {
+    Node * newNode = (Node*)malloc(sizeof(Node));
+    Node * pred = plist->head;
     
+    newNode->data = data;
+    
+    while(pred->next != NULL && plist->comp(data, pred->next->data) != 0)
+    {
+        pred = pred->next;
+    }
+    
+    newNode->next = pred->next;
+    pred->next = newNode;
+    
+    (plist->numOfData)++;
 }
 
 // comp의 유무에 따라 위의 삽입 함수 두 개로 나뉨.
@@ -105,7 +118,8 @@ int LCount(List * plist)
     return plist->numOfData;
 }
 
+// 리스트의 정렬 조건을 정한다.
 void SetSortRule(List * plist, int (*comp)(LData d1, LData d2))
 {
-     
+    plist->comp = comp;
 }

@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65EBFC2520578E150074E526 /* DLinkedList.h in Sources */ = {isa = PBXBuildFile; fileRef = 65EBFC2220578DA10074E526 /* DLinkedList.h */; };
-		65EBFC2620578E150074E526 /* DLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 65EBFC2320578DA10074E526 /* DLinkedList.c */; };
-		65EBFC2820579DC90074E526 /* DLinkedListMain.c in Sources */ = {isa = PBXBuildFile; fileRef = 65EBFC2720579DC90074E526 /* DLinkedListMain.c */; };
+		65FCC5BE20581701009F5DB5 /* DLinkedList.h in Sources */ = {isa = PBXBuildFile; fileRef = 65EBFC2220578DA10074E526 /* DLinkedList.h */; };
+		65FCC5BF20581701009F5DB5 /* DLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 65EBFC2320578DA10074E526 /* DLinkedList.c */; };
+		65FCC5C020581701009F5DB5 /* DLinkedListMain.c in Sources */ = {isa = PBXBuildFile; fileRef = 65EBFC2720579DC90074E526 /* DLinkedListMain.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -239,9 +239,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65EBFC2520578E150074E526 /* DLinkedList.h in Sources */,
-				65EBFC2620578E150074E526 /* DLinkedList.c in Sources */,
-				65EBFC2820579DC90074E526 /* DLinkedListMain.c in Sources */,
+				65FCC5BE20581701009F5DB5 /* DLinkedList.h in Sources */,
+				65FCC5BF20581701009F5DB5 /* DLinkedList.c in Sources */,
+				65FCC5C020581701009F5DB5 /* DLinkedListMain.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
