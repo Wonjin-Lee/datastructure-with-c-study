@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 
+// 순차 탐색
 int LSearch(int ar[], int len, int target){
     for(int i=0; i<len; i++){
         if(ar[i] == target)

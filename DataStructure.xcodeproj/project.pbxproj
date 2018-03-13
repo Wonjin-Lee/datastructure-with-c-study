@@ -6,6 +6,12 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		65EBFC2520578E150074E526 /* DLinkedList.h in Sources */ = {isa = PBXBuildFile; fileRef = 65EBFC2220578DA10074E526 /* DLinkedList.h */; };
+		65EBFC2620578E150074E526 /* DLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 65EBFC2320578DA10074E526 /* DLinkedList.c */; };
+		65EBFC2820579DC90074E526 /* DLinkedListMain.c in Sources */ = {isa = PBXBuildFile; fileRef = 65EBFC2720579DC90074E526 /* DLinkedListMain.c */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		6552D62F2051733400D98226 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -28,6 +34,9 @@
 		656297162053BB0A00064E6C /* Point.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Point.h; sourceTree = "<group>"; };
 		656297172053BB0A00064E6C /* Point.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Point.c; sourceTree = "<group>"; };
 		6562971A2053C0AF00064E6C /* PointListMain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PointListMain.c; sourceTree = "<group>"; };
+		65EBFC2220578DA10074E526 /* DLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLinkedList.h; sourceTree = "<group>"; };
+		65EBFC2320578DA10074E526 /* DLinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DLinkedList.c; sourceTree = "<group>"; };
+		65EBFC2720579DC90074E526 /* DLinkedListMain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DLinkedListMain.c; sourceTree = "<group>"; };
 		65F2D77D20518DBC00B6C381 /* Fibo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Fibo.c; sourceTree = "<group>"; };
 		65F2F14C2054E3F7002F47BE /* NameCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NameCard.h; sourceTree = "<group>"; };
 		65F2F14D2054E3F7002F47BE /* NameCard.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = NameCard.c; sourceTree = "<group>"; };
@@ -38,11 +47,9 @@
 		65F2F1582054F4CB002F47BE /* NameCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NameCard.h; path = "../../Data_Structure_Src/Ch03/Prob03-2/NameCard.h"; sourceTree = "<group>"; };
 		65F2F1592054F4CB002F47BE /* NameCardListMain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = NameCardListMain.c; path = "../../Data_Structure_Src/Ch03/Prob03-2/NameCardListMain.c"; sourceTree = "<group>"; };
 		65F2F1682054F6BA002F47BE /* ListUseMain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ListUseMain.c; path = "../../Data_Structure_Src/Ch03/Prob03-1/ListUseMain.c"; sourceTree = "<group>"; };
-		65F2F1692054F6BA002F47BE /* ArrayList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ArrayList.c; path = "../../Data_Structure_Src/Ch03/Prob03-1/ArrayList.c"; sourceTree = "<group>"; };
 		65F2F16A2054F6BA002F47BE /* ArrayList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArrayList.h; path = "../../Data_Structure_Src/Ch03/Prob03-1/ArrayList.h"; sourceTree = "<group>"; };
 		65F2F16E20550439002F47BE /* LinkedRead.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinkedRead.c; sourceTree = "<group>"; };
 		65F2F17120555C95002F47BE /* free.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = free.c; sourceTree = "<group>"; };
-		65F2F17520562441002F47BE /* LinkedRead_Repeat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinkedRead_Repeat.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,12 +83,13 @@
 		6552D6282051733400D98226 = {
 			isa = PBXGroup;
 			children = (
+				65EBFC2120578D790074E526 /* ArrayList_DummyNode_Ver */,
 				65F2F17020555C7E002F47BE /* FREE */,
 				65F2F16D2055041F002F47BE /* LinkedRead */,
 				65F2F1672054F69C002F47BE /* Problem3-1 */,
 				65F2F1542054F4A2002F47BE /* Problem3-2 */,
 				65F2F14B2054E3C3002F47BE /* List_Exercise */,
-				656297152053BADF00064E6C /* ArrayList_Struct */,
+				656297152053BADF00064E6C /* ArrayList_Struct_ver */,
 				653AC4212053AFD600027325 /* LinearSearch */,
 				653AC41A2053A75100027325 /* ArrayList */,
 				6552D6332051733400D98226 /* Recursion */,
@@ -105,14 +113,24 @@
 			path = Recursion;
 			sourceTree = "<group>";
 		};
-		656297152053BADF00064E6C /* ArrayList_Struct */ = {
+		656297152053BADF00064E6C /* ArrayList_Struct_ver */ = {
 			isa = PBXGroup;
 			children = (
 				656297162053BB0A00064E6C /* Point.h */,
 				656297172053BB0A00064E6C /* Point.c */,
 				6562971A2053C0AF00064E6C /* PointListMain.c */,
 			);
-			path = ArrayList_Struct;
+			path = ArrayList_Struct_ver;
+			sourceTree = "<group>";
+		};
+		65EBFC2120578D790074E526 /* ArrayList_DummyNode_Ver */ = {
+			isa = PBXGroup;
+			children = (
+				65EBFC2220578DA10074E526 /* DLinkedList.h */,
+				65EBFC2320578DA10074E526 /* DLinkedList.c */,
+				65EBFC2720579DC90074E526 /* DLinkedListMain.c */,
+			);
+			path = ArrayList_DummyNode_Ver;
 			sourceTree = "<group>";
 		};
 		65F2F14B2054E3C3002F47BE /* List_Exercise */ = {
@@ -142,7 +160,6 @@
 		65F2F1672054F69C002F47BE /* Problem3-1 */ = {
 			isa = PBXGroup;
 			children = (
-				65F2F1692054F6BA002F47BE /* ArrayList.c */,
 				65F2F16A2054F6BA002F47BE /* ArrayList.h */,
 				65F2F1682054F6BA002F47BE /* ListUseMain.c */,
 			);
@@ -153,7 +170,6 @@
 			isa = PBXGroup;
 			children = (
 				65F2F16E20550439002F47BE /* LinkedRead.c */,
-				65F2F17520562441002F47BE /* LinkedRead_Repeat.c */,
 			);
 			path = LinkedRead;
 			sourceTree = "<group>";
@@ -223,6 +239,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65EBFC2520578E150074E526 /* DLinkedList.h in Sources */,
+				65EBFC2620578E150074E526 /* DLinkedList.c in Sources */,
+				65EBFC2820579DC90074E526 /* DLinkedListMain.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

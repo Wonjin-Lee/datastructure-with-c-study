@@ -18,7 +18,7 @@ typedef struct _point
 } Point;
 
 // Point 변수의 xpos, ypos 값 설정
-void SetPointPos(Point * ppos, int xpos, int ypos);
+voi d SetPointPos(Point * ppos, int xpos, int ypos);
 
 // Point 변수의 xpos, ypos 정보 출력
 void ShowPointPos(Point * ppos);

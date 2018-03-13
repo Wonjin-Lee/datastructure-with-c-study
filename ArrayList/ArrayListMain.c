@@ -14,7 +14,7 @@ int main(){
     
     ListInit(&list);
     
-    for(int i=1; i<10; i++){ // 리스트에 저장 1부터 9까지
+    for(int i=1; i<10; i++){
         LInsert(&list, i);
     }
     printf("%d \n", LCount(&list));
