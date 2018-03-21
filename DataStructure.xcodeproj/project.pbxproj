@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65D0F38E2058E89F00A4BE83 /* CLinkedList.h in Sources */ = {isa = PBXBuildFile; fileRef = 65D0F3872058E49400A4BE83 /* CLinkedList.h */; };
-		65D0F38F2058E89F00A4BE83 /* CLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 65D0F3882058E49400A4BE83 /* CLinkedList.c */; };
-		65D0F3902058E89F00A4BE83 /* CLinkedListMain.c in Sources */ = {isa = PBXBuildFile; fileRef = 65D0F38C2058E4B700A4BE83 /* CLinkedListMain.c */; };
+		6534B9042062864500F589F7 /* DBLinkedListDummy.h in Sources */ = {isa = PBXBuildFile; fileRef = 65E3FDD72062175400B08503 /* DBLinkedListDummy.h */; };
+		6534B9052062864500F589F7 /* DBLinkedListDummy.c in Sources */ = {isa = PBXBuildFile; fileRef = 65E3FDD82062175400B08503 /* DBLinkedListDummy.c */; };
+		6534B9062062864500F589F7 /* DBDLinkedListMain.c in Sources */ = {isa = PBXBuildFile; fileRef = 65E3FDDD206229BA00B08503 /* DBDLinkedListMain.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		651BDF01205A3904006D0929 /* CLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLinkedList.h; sourceTree = "<group>"; };
+		651BDF02205A3904006D0929 /* CLinkedListMain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CLinkedListMain.c; sourceTree = "<group>"; };
+		651BDF03205A3904006D0929 /* CLinkedList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CLinkedList.c; sourceTree = "<group>"; };
+		6534B8FF20627B5900F589F7 /* DBLinkedListMain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DBLinkedListMain.c; sourceTree = "<group>"; };
 		653AC41B2053A76400027325 /* ArrayList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayList.h; sourceTree = "<group>"; };
 		653AC41C2053A76400027325 /* ArrayList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ArrayList.c; sourceTree = "<group>"; };
 		653AC41F2053A7CB00027325 /* ArrayListMethodPrac.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ArrayListMethodPrac.c; sourceTree = "<group>"; };
@@ -37,6 +41,11 @@
 		65D0F3872058E49400A4BE83 /* CLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLinkedList.h; sourceTree = "<group>"; };
 		65D0F3882058E49400A4BE83 /* CLinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CLinkedList.c; sourceTree = "<group>"; };
 		65D0F38C2058E4B700A4BE83 /* CLinkedListMain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CLinkedListMain.c; sourceTree = "<group>"; };
+		65E3FDD220620E3800B08503 /* DBLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBLinkedList.h; sourceTree = "<group>"; };
+		65E3FDD320620E3800B08503 /* DBLinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DBLinkedList.c; sourceTree = "<group>"; };
+		65E3FDD72062175400B08503 /* DBLinkedListDummy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBLinkedListDummy.h; sourceTree = "<group>"; };
+		65E3FDD82062175400B08503 /* DBLinkedListDummy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DBLinkedListDummy.c; sourceTree = "<group>"; };
+		65E3FDDD206229BA00B08503 /* DBDLinkedListMain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DBDLinkedListMain.c; sourceTree = "<group>"; };
 		65EBFC2220578DA10074E526 /* DLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLinkedList.h; sourceTree = "<group>"; };
 		65EBFC2320578DA10074E526 /* DLinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DLinkedList.c; sourceTree = "<group>"; };
 		65EBFC2720579DC90074E526 /* DLinkedListMain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DLinkedListMain.c; sourceTree = "<group>"; };
@@ -86,6 +95,9 @@
 		6552D6282051733400D98226 = {
 			isa = PBXGroup;
 			children = (
+				65E3FDD62062170800B08503 /* LinkedList_Doubly_Dummy_Ver */,
+				65E3FDD120620DE500B08503 /* LinkedList_Doubly_Ver */,
+				65A033E6205A38A30049F394 /* LinkedList_Circle_Exercise */,
 				65D0F3862058E42300A4BE83 /* LinkedList_Circle_Ver */,
 				65EBFC2120578D790074E526 /* LinkedList_DummyNode_Ver */,
 				65F2F17020555C7E002F47BE /* FREE */,
@@ -127,6 +139,16 @@
 			path = ArrayList_Struct_ver;
 			sourceTree = "<group>";
 		};
+		65A033E6205A38A30049F394 /* LinkedList_Circle_Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				651BDF03205A3904006D0929 /* CLinkedList.c */,
+				651BDF01205A3904006D0929 /* CLinkedList.h */,
+				651BDF02205A3904006D0929 /* CLinkedListMain.c */,
+			);
+			path = LinkedList_Circle_Exercise;
+			sourceTree = "<group>";
+		};
 		65D0F3862058E42300A4BE83 /* LinkedList_Circle_Ver */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +157,26 @@
 				65D0F38C2058E4B700A4BE83 /* CLinkedListMain.c */,
 			);
 			path = LinkedList_Circle_Ver;
+			sourceTree = "<group>";
+		};
+		65E3FDD120620DE500B08503 /* LinkedList_Doubly_Ver */ = {
+			isa = PBXGroup;
+			children = (
+				65E3FDD220620E3800B08503 /* DBLinkedList.h */,
+				65E3FDD320620E3800B08503 /* DBLinkedList.c */,
+				6534B8FF20627B5900F589F7 /* DBLinkedListMain.c */,
+			);
+			path = LinkedList_Doubly_Ver;
+			sourceTree = "<group>";
+		};
+		65E3FDD62062170800B08503 /* LinkedList_Doubly_Dummy_Ver */ = {
+			isa = PBXGroup;
+			children = (
+				65E3FDD72062175400B08503 /* DBLinkedListDummy.h */,
+				65E3FDD82062175400B08503 /* DBLinkedListDummy.c */,
+				65E3FDDD206229BA00B08503 /* DBDLinkedListMain.c */,
+			);
+			path = LinkedList_Doubly_Dummy_Ver;
 			sourceTree = "<group>";
 		};
 		65EBFC2120578D790074E526 /* LinkedList_DummyNode_Ver */ = {
@@ -253,9 +295,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D0F38E2058E89F00A4BE83 /* CLinkedList.h in Sources */,
-				65D0F38F2058E89F00A4BE83 /* CLinkedList.c in Sources */,
-				65D0F3902058E89F00A4BE83 /* CLinkedListMain.c in Sources */,
+				6534B9042062864500F589F7 /* DBLinkedListDummy.h in Sources */,
+				6534B9052062864500F589F7 /* DBLinkedListDummy.c in Sources */,
+				6534B9062062864500F589F7 /* DBDLinkedListMain.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
