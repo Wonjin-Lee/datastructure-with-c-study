@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65E5BC342069293000283AAA /* ListBaseStackMain.c in Sources */ = {isa = PBXBuildFile; fileRef = 65E5BC312069293000283AAA /* ListBaseStackMain.c */; };
-		65E5BC352069293000283AAA /* ListBaseStack.c in Sources */ = {isa = PBXBuildFile; fileRef = 65E5BC322069293000283AAA /* ListBaseStack.c */; };
+		658ABCA4206AA0E10056D41C /* ListBaseStack.h in Sources */ = {isa = PBXBuildFile; fileRef = 654996562069FB1900E3A5DC /* ListBaseStack.h */; };
+		658ABCA5206AA0E10056D41C /* ListBaseStack.c in Sources */ = {isa = PBXBuildFile; fileRef = 654996572069FB1900E3A5DC /* ListBaseStack.c */; };
+		658ABCA6206AA0E10056D41C /* InfixToPostfix.h in Sources */ = {isa = PBXBuildFile; fileRef = 658ABC99206A854A0056D41C /* InfixToPostfix.h */; };
+		658ABCA7206AA0E10056D41C /* InfixToPostfix.c in Sources */ = {isa = PBXBuildFile; fileRef = 658ABC9A206A854A0056D41C /* InfixToPostfix.c */; };
+		658ABCA8206AA0E10056D41C /* PostCalculator.h in Sources */ = {isa = PBXBuildFile; fileRef = 658ABC9C206A99320056D41C /* PostCalculator.h */; };
+		658ABCA9206AA0E10056D41C /* PostCalculator.c in Sources */ = {isa = PBXBuildFile; fileRef = 658ABC9D206A99320056D41C /* PostCalculator.c */; };
+		658ABCAA206AA0E10056D41C /* InfixCalculator.h in Sources */ = {isa = PBXBuildFile; fileRef = 658ABC9F206A9F280056D41C /* InfixCalculator.h */; };
+		658ABCAB206AA0E10056D41C /* InfixCalculator.c in Sources */ = {isa = PBXBuildFile; fileRef = 658ABCA0206A9F280056D41C /* InfixCalculator.c */; };
+		658ABCAC206AA0E10056D41C /* InfixCalculatorMain.c in Sources */ = {isa = PBXBuildFile; fileRef = 658ABCA2206AA0730056D41C /* InfixCalculatorMain.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,11 +39,20 @@
 		653AC41C2053A76400027325 /* ArrayList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ArrayList.c; sourceTree = "<group>"; };
 		653AC41F2053A7CB00027325 /* ArrayListMethodPrac.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ArrayListMethodPrac.c; sourceTree = "<group>"; };
 		653E1D4C20525B4700487E32 /* ArrayListMain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ArrayListMain.c; sourceTree = "<group>"; };
+		654996562069FB1900E3A5DC /* ListBaseStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListBaseStack.h; sourceTree = "<group>"; };
+		654996572069FB1900E3A5DC /* ListBaseStack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ListBaseStack.c; sourceTree = "<group>"; };
 		6552D6312051733400D98226 /* DataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		6552D6342051733400D98226 /* LinearSearch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinearSearch.c; sourceTree = "<group>"; };
 		656297162053BB0A00064E6C /* Point.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Point.h; sourceTree = "<group>"; };
 		656297172053BB0A00064E6C /* Point.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Point.c; sourceTree = "<group>"; };
 		6562971A2053C0AF00064E6C /* PointListMain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PointListMain.c; sourceTree = "<group>"; };
+		658ABC99206A854A0056D41C /* InfixToPostfix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfixToPostfix.h; sourceTree = "<group>"; };
+		658ABC9A206A854A0056D41C /* InfixToPostfix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = InfixToPostfix.c; sourceTree = "<group>"; };
+		658ABC9C206A99320056D41C /* PostCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostCalculator.h; sourceTree = "<group>"; };
+		658ABC9D206A99320056D41C /* PostCalculator.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PostCalculator.c; sourceTree = "<group>"; };
+		658ABC9F206A9F280056D41C /* InfixCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfixCalculator.h; sourceTree = "<group>"; };
+		658ABCA0206A9F280056D41C /* InfixCalculator.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = InfixCalculator.c; sourceTree = "<group>"; };
+		658ABCA2206AA0730056D41C /* InfixCalculatorMain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = InfixCalculatorMain.c; sourceTree = "<group>"; };
 		65D0F3872058E49400A4BE83 /* CLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLinkedList.h; sourceTree = "<group>"; };
 		65D0F3882058E49400A4BE83 /* CLinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CLinkedList.c; sourceTree = "<group>"; };
 		65D0F38C2058E4B700A4BE83 /* CLinkedListMain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CLinkedListMain.c; sourceTree = "<group>"; };
@@ -97,9 +113,26 @@
 			path = LinearSearch;
 			sourceTree = "<group>";
 		};
+		6546932D20694A740092FE75 /* Stack_Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				654996562069FB1900E3A5DC /* ListBaseStack.h */,
+				654996572069FB1900E3A5DC /* ListBaseStack.c */,
+				658ABC99206A854A0056D41C /* InfixToPostfix.h */,
+				658ABC9A206A854A0056D41C /* InfixToPostfix.c */,
+				658ABC9C206A99320056D41C /* PostCalculator.h */,
+				658ABC9D206A99320056D41C /* PostCalculator.c */,
+				658ABC9F206A9F280056D41C /* InfixCalculator.h */,
+				658ABCA0206A9F280056D41C /* InfixCalculator.c */,
+				658ABCA2206AA0730056D41C /* InfixCalculatorMain.c */,
+			);
+			path = Stack_Calculator;
+			sourceTree = "<group>";
+		};
 		6552D6282051733400D98226 = {
 			isa = PBXGroup;
 			children = (
+				6546932D20694A740092FE75 /* Stack_Calculator */,
 				65E5BC302069290300283AAA /* Stack_LinkedListBase */,
 				65EEB0CF2064C8D0009A9E30 /* Stack_ArrayBase */,
 				65E3FDD62062170800B08503 /* LinkedList_Doubly_Dummy_Ver */,
@@ -322,8 +355,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65E5BC342069293000283AAA /* ListBaseStackMain.c in Sources */,
-				65E5BC352069293000283AAA /* ListBaseStack.c in Sources */,
+				658ABCA4206AA0E10056D41C /* ListBaseStack.h in Sources */,
+				658ABCA5206AA0E10056D41C /* ListBaseStack.c in Sources */,
+				658ABCA6206AA0E10056D41C /* InfixToPostfix.h in Sources */,
+				658ABCA7206AA0E10056D41C /* InfixToPostfix.c in Sources */,
+				658ABCA8206AA0E10056D41C /* PostCalculator.h in Sources */,
+				658ABCA9206AA0E10056D41C /* PostCalculator.c in Sources */,
+				658ABCAA206AA0E10056D41C /* InfixCalculator.h in Sources */,
+				658ABCAB206AA0E10056D41C /* InfixCalculator.c in Sources */,
+				658ABCAC206AA0E10056D41C /* InfixCalculatorMain.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
