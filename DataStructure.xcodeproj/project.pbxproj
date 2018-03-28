@@ -7,15 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		658ABCA4206AA0E10056D41C /* ListBaseStack.h in Sources */ = {isa = PBXBuildFile; fileRef = 654996562069FB1900E3A5DC /* ListBaseStack.h */; };
-		658ABCA5206AA0E10056D41C /* ListBaseStack.c in Sources */ = {isa = PBXBuildFile; fileRef = 654996572069FB1900E3A5DC /* ListBaseStack.c */; };
-		658ABCA6206AA0E10056D41C /* InfixToPostfix.h in Sources */ = {isa = PBXBuildFile; fileRef = 658ABC99206A854A0056D41C /* InfixToPostfix.h */; };
-		658ABCA7206AA0E10056D41C /* InfixToPostfix.c in Sources */ = {isa = PBXBuildFile; fileRef = 658ABC9A206A854A0056D41C /* InfixToPostfix.c */; };
-		658ABCA8206AA0E10056D41C /* PostCalculator.h in Sources */ = {isa = PBXBuildFile; fileRef = 658ABC9C206A99320056D41C /* PostCalculator.h */; };
-		658ABCA9206AA0E10056D41C /* PostCalculator.c in Sources */ = {isa = PBXBuildFile; fileRef = 658ABC9D206A99320056D41C /* PostCalculator.c */; };
-		658ABCAA206AA0E10056D41C /* InfixCalculator.h in Sources */ = {isa = PBXBuildFile; fileRef = 658ABC9F206A9F280056D41C /* InfixCalculator.h */; };
-		658ABCAB206AA0E10056D41C /* InfixCalculator.c in Sources */ = {isa = PBXBuildFile; fileRef = 658ABCA0206A9F280056D41C /* InfixCalculator.c */; };
-		658ABCAC206AA0E10056D41C /* InfixCalculatorMain.c in Sources */ = {isa = PBXBuildFile; fileRef = 658ABCA2206AA0730056D41C /* InfixCalculatorMain.c */; };
+		65123151206B6A0000942BFB /* ListBaseQueue.h in Sources */ = {isa = PBXBuildFile; fileRef = 6512313E206B5E5F00942BFB /* ListBaseQueue.h */; };
+		65123152206B6A0000942BFB /* ListBaseQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 6512313F206B5E5F00942BFB /* ListBaseQueue.c */; };
+		65123153206B6A0000942BFB /* ListBaseQueueMain.c in Sources */ = {isa = PBXBuildFile; fileRef = 65123143206B643600942BFB /* ListBaseQueueMain.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		65123133206B4F2E00942BFB /* CircularQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularQueue.h; sourceTree = "<group>"; };
+		65123134206B4F2E00942BFB /* CircularQueue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CircularQueue.c; sourceTree = "<group>"; };
+		65123138206B54F600942BFB /* CircularQueueMain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CircularQueueMain.c; sourceTree = "<group>"; };
+		6512313E206B5E5F00942BFB /* ListBaseQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListBaseQueue.h; sourceTree = "<group>"; };
+		6512313F206B5E5F00942BFB /* ListBaseQueue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ListBaseQueue.c; sourceTree = "<group>"; };
+		65123143206B643600942BFB /* ListBaseQueueMain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ListBaseQueueMain.c; sourceTree = "<group>"; };
 		651BDF01205A3904006D0929 /* CLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLinkedList.h; sourceTree = "<group>"; };
 		651BDF02205A3904006D0929 /* CLinkedListMain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CLinkedListMain.c; sourceTree = "<group>"; };
 		651BDF03205A3904006D0929 /* CLinkedList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CLinkedList.c; sourceTree = "<group>"; };
@@ -96,6 +96,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65123132206B4E9600942BFB /* Queue_Circular */ = {
+			isa = PBXGroup;
+			children = (
+				65123133206B4F2E00942BFB /* CircularQueue.h */,
+				65123134206B4F2E00942BFB /* CircularQueue.c */,
+				65123138206B54F600942BFB /* CircularQueueMain.c */,
+			);
+			path = Queue_Circular;
+			sourceTree = "<group>";
+		};
+		6512313D206B5E4300942BFB /* Queue_LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				6512313E206B5E5F00942BFB /* ListBaseQueue.h */,
+				6512313F206B5E5F00942BFB /* ListBaseQueue.c */,
+				65123143206B643600942BFB /* ListBaseQueueMain.c */,
+			);
+			path = Queue_LinkedList;
+			sourceTree = "<group>";
+		};
 		653AC41A2053A75100027325 /* ArrayList */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +152,8 @@
 		6552D6282051733400D98226 = {
 			isa = PBXGroup;
 			children = (
+				6512313D206B5E4300942BFB /* Queue_LinkedList */,
+				65123132206B4E9600942BFB /* Queue_Circular */,
 				6546932D20694A740092FE75 /* Stack_Calculator */,
 				65E5BC302069290300283AAA /* Stack_LinkedListBase */,
 				65EEB0CF2064C8D0009A9E30 /* Stack_ArrayBase */,
@@ -355,15 +377,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				658ABCA4206AA0E10056D41C /* ListBaseStack.h in Sources */,
-				658ABCA5206AA0E10056D41C /* ListBaseStack.c in Sources */,
-				658ABCA6206AA0E10056D41C /* InfixToPostfix.h in Sources */,
-				658ABCA7206AA0E10056D41C /* InfixToPostfix.c in Sources */,
-				658ABCA8206AA0E10056D41C /* PostCalculator.h in Sources */,
-				658ABCA9206AA0E10056D41C /* PostCalculator.c in Sources */,
-				658ABCAA206AA0E10056D41C /* InfixCalculator.h in Sources */,
-				658ABCAB206AA0E10056D41C /* InfixCalculator.c in Sources */,
-				658ABCAC206AA0E10056D41C /* InfixCalculatorMain.c in Sources */,
+				65123151206B6A0000942BFB /* ListBaseQueue.h in Sources */,
+				65123152206B6A0000942BFB /* ListBaseQueue.c in Sources */,
+				65123153206B6A0000942BFB /* ListBaseQueueMain.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
