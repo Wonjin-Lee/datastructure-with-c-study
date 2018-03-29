@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65123151206B6A0000942BFB /* ListBaseQueue.h in Sources */ = {isa = PBXBuildFile; fileRef = 6512313E206B5E5F00942BFB /* ListBaseQueue.h */; };
-		65123152206B6A0000942BFB /* ListBaseQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 6512313F206B5E5F00942BFB /* ListBaseQueue.c */; };
-		65123153206B6A0000942BFB /* ListBaseQueueMain.c in Sources */ = {isa = PBXBuildFile; fileRef = 65123143206B643600942BFB /* ListBaseQueueMain.c */; };
+		65DAE3B3206BDEB6006EA7C3 /* Deque.h in Sources */ = {isa = PBXBuildFile; fileRef = 65DAE3B0206BDE82006EA7C3 /* Deque.h */; };
+		65DAE3B4206BDEB6006EA7C3 /* Deque.c in Sources */ = {isa = PBXBuildFile; fileRef = 65DAE3B1206BDE82006EA7C3 /* Deque.c */; };
+		65E2D68F206D273800419BE9 /* DequeMain.c in Sources */ = {isa = PBXBuildFile; fileRef = 65E2D68E206D273800419BE9 /* DequeMain.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -56,6 +56,9 @@
 		65D0F3872058E49400A4BE83 /* CLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLinkedList.h; sourceTree = "<group>"; };
 		65D0F3882058E49400A4BE83 /* CLinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CLinkedList.c; sourceTree = "<group>"; };
 		65D0F38C2058E4B700A4BE83 /* CLinkedListMain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CLinkedListMain.c; sourceTree = "<group>"; };
+		65DAE3B0206BDE82006EA7C3 /* Deque.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deque.h; sourceTree = "<group>"; };
+		65DAE3B1206BDE82006EA7C3 /* Deque.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Deque.c; sourceTree = "<group>"; };
+		65E2D68E206D273800419BE9 /* DequeMain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DequeMain.c; sourceTree = "<group>"; };
 		65E3FDD220620E3800B08503 /* DBLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBLinkedList.h; sourceTree = "<group>"; };
 		65E3FDD320620E3800B08503 /* DBLinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DBLinkedList.c; sourceTree = "<group>"; };
 		65E3FDD72062175400B08503 /* DBLinkedListDummy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBLinkedListDummy.h; sourceTree = "<group>"; };
@@ -152,6 +155,7 @@
 		6552D6282051733400D98226 = {
 			isa = PBXGroup;
 			children = (
+				65DAE3AA206BDE1D006EA7C3 /* Deque_DoublyLinkedList */,
 				6512313D206B5E4300942BFB /* Queue_LinkedList */,
 				65123132206B4E9600942BFB /* Queue_Circular */,
 				6546932D20694A740092FE75 /* Stack_Calculator */,
@@ -219,6 +223,16 @@
 				65D0F38C2058E4B700A4BE83 /* CLinkedListMain.c */,
 			);
 			path = LinkedList_Circle_Ver;
+			sourceTree = "<group>";
+		};
+		65DAE3AA206BDE1D006EA7C3 /* Deque_DoublyLinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				65DAE3B0206BDE82006EA7C3 /* Deque.h */,
+				65DAE3B1206BDE82006EA7C3 /* Deque.c */,
+				65E2D68E206D273800419BE9 /* DequeMain.c */,
+			);
+			path = Deque_DoublyLinkedList;
 			sourceTree = "<group>";
 		};
 		65E3FDD120620DE500B08503 /* LinkedList_Doubly_Ver */ = {
@@ -377,9 +391,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65123151206B6A0000942BFB /* ListBaseQueue.h in Sources */,
-				65123152206B6A0000942BFB /* ListBaseQueue.c in Sources */,
-				65123153206B6A0000942BFB /* ListBaseQueueMain.c in Sources */,
+				65DAE3B3206BDEB6006EA7C3 /* Deque.h in Sources */,
+				65DAE3B4206BDEB6006EA7C3 /* Deque.c in Sources */,
+				65E2D68F206D273800419BE9 /* DequeMain.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
