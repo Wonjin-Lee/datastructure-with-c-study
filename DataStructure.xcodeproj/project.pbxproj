@@ -7,13 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		659206B02073435E007A3C50 /* BinaryTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 659206A720733F42007A3C50 /* BinaryTree.c */; };
-		659206B12073435E007A3C50 /* BinaryTree.h in Sources */ = {isa = PBXBuildFile; fileRef = 659206A820733F43007A3C50 /* BinaryTree.h */; };
-		659206B22073435E007A3C50 /* ListBaseStack.c in Sources */ = {isa = PBXBuildFile; fileRef = 659206A420733F15007A3C50 /* ListBaseStack.c */; };
-		659206B32073435E007A3C50 /* ListBaseStack.h in Sources */ = {isa = PBXBuildFile; fileRef = 659206A520733F15007A3C50 /* ListBaseStack.h */; };
-		659206B42073435E007A3C50 /* ExpressionTree.h in Sources */ = {isa = PBXBuildFile; fileRef = 659206A120733ED8007A3C50 /* ExpressionTree.h */; };
-		659206B52073435E007A3C50 /* ExpressionTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 659206A220733ED8007A3C50 /* ExpressionTree.c */; };
-		659206B720734AA1007A3C50 /* ExpressionMain.c in Sources */ = {isa = PBXBuildFile; fileRef = 659206B620734AA1007A3C50 /* ExpressionMain.c */; };
+		65F71661207BADCA00A62301 /* SelectionSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 65F7165F207BABDF00A62301 /* SelectionSort.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6504391E2079DD190080BAD2 /* PriorityHeap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PriorityHeap.h; sourceTree = "<group>"; };
+		6504391F2079DD190080BAD2 /* PriorityHeap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PriorityHeap.c; sourceTree = "<group>"; };
+		650439212079F4F30080BAD2 /* PriorityHeapMain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PriorityHeapMain.c; sourceTree = "<group>"; };
 		650E9F84206F7E8400BBA391 /* BinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
 		650E9F85206F7E8400BBA391 /* BinaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BinaryTree.c; sourceTree = "<group>"; };
 		650E9F87206F7EC500BBA391 /* BinaryTreeMain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BinaryTreeMain.c; sourceTree = "<group>"; };
@@ -105,6 +102,8 @@
 		65F2F16A2054F6BA002F47BE /* ArrayList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArrayList.h; path = "../../Data_Structure_Src/Ch03/Prob03-1/ArrayList.h"; sourceTree = "<group>"; };
 		65F2F16E20550439002F47BE /* LinkedRead.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinkedRead.c; sourceTree = "<group>"; };
 		65F2F17120555C95002F47BE /* free.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = free.c; sourceTree = "<group>"; };
+		65F7165B207BA1A100A62301 /* BubbleSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BubbleSort.c; sourceTree = "<group>"; };
+		65F7165F207BABDF00A62301 /* SelectionSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SelectionSort.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +117,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6504391D2079DCDC0080BAD2 /* Heap_Priority */ = {
+			isa = PBXGroup;
+			children = (
+				6504391E2079DD190080BAD2 /* PriorityHeap.h */,
+				6504391F2079DD190080BAD2 /* PriorityHeap.c */,
+				650439212079F4F30080BAD2 /* PriorityHeapMain.c */,
+			);
+			path = Heap_Priority;
+			sourceTree = "<group>";
+		};
 		65123132206B4E9600942BFB /* Queue_Circular */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +183,9 @@
 		6552D6282051733400D98226 = {
 			isa = PBXGroup;
 			children = (
+				65F7165E207BABC800A62301 /* SelectionSort */,
+				65F7165A207BA17800A62301 /* BubbleSort */,
+				6504391D2079DCDC0080BAD2 /* Heap_Priority */,
 				659206A020733EAE007A3C50 /* ExpressionTree */,
 				65DE985D206F7D5300A0F303 /* BinaryTree */,
 				6567D3DD206DEB750080D433 /* Queue_UsingDeque */,
@@ -392,6 +404,22 @@
 			path = FREE;
 			sourceTree = "<group>";
 		};
+		65F7165A207BA17800A62301 /* BubbleSort */ = {
+			isa = PBXGroup;
+			children = (
+				65F7165B207BA1A100A62301 /* BubbleSort.c */,
+			);
+			path = BubbleSort;
+			sourceTree = "<group>";
+		};
+		65F7165E207BABC800A62301 /* SelectionSort */ = {
+			isa = PBXGroup;
+			children = (
+				65F7165F207BABDF00A62301 /* SelectionSort.c */,
+			);
+			path = SelectionSort;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -449,13 +477,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				659206B02073435E007A3C50 /* BinaryTree.c in Sources */,
-				659206B12073435E007A3C50 /* BinaryTree.h in Sources */,
-				659206B22073435E007A3C50 /* ListBaseStack.c in Sources */,
-				659206B32073435E007A3C50 /* ListBaseStack.h in Sources */,
-				659206B720734AA1007A3C50 /* ExpressionMain.c in Sources */,
-				659206B42073435E007A3C50 /* ExpressionTree.h in Sources */,
-				659206B52073435E007A3C50 /* ExpressionTree.c in Sources */,
+				65F71661207BADCA00A62301 /* SelectionSort.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
