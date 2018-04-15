@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65F71661207BADCA00A62301 /* SelectionSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 65F7165F207BABDF00A62301 /* SelectionSort.c */; };
+		65F056712082EF0F00BACB0B /* MergeSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 65F0566E2082E49B00BACB0B /* MergeSort.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -89,6 +89,8 @@
 		65EEB0D02064C8FE009A9E30 /* ArrayBaseStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayBaseStack.h; sourceTree = "<group>"; };
 		65EEB0D12064C8FE009A9E30 /* ArrayBaseStack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ArrayBaseStack.c; sourceTree = "<group>"; };
 		65EEB0D32064C91B009A9E30 /* ArrayBaseStackMain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ArrayBaseStackMain.c; sourceTree = "<group>"; };
+		65F056682082E01800BACB0B /* InsertionSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = InsertionSort.c; sourceTree = "<group>"; };
+		65F0566E2082E49B00BACB0B /* MergeSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MergeSort.c; sourceTree = "<group>"; };
 		65F2D77D20518DBC00B6C381 /* Fibo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Fibo.c; sourceTree = "<group>"; };
 		65F2F14C2054E3F7002F47BE /* NameCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NameCard.h; sourceTree = "<group>"; };
 		65F2F14D2054E3F7002F47BE /* NameCard.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = NameCard.c; sourceTree = "<group>"; };
@@ -183,6 +185,8 @@
 		6552D6282051733400D98226 = {
 			isa = PBXGroup;
 			children = (
+				65F0566D2082E48300BACB0B /* MergeSort */,
+				65F056672082DFF600BACB0B /* InsertionSort */,
 				65F7165E207BABC800A62301 /* SelectionSort */,
 				65F7165A207BA17800A62301 /* BubbleSort */,
 				6504391D2079DCDC0080BAD2 /* Heap_Priority */,
@@ -355,6 +359,22 @@
 			path = Stack_ArrayBase;
 			sourceTree = "<group>";
 		};
+		65F056672082DFF600BACB0B /* InsertionSort */ = {
+			isa = PBXGroup;
+			children = (
+				65F056682082E01800BACB0B /* InsertionSort.c */,
+			);
+			path = InsertionSort;
+			sourceTree = "<group>";
+		};
+		65F0566D2082E48300BACB0B /* MergeSort */ = {
+			isa = PBXGroup;
+			children = (
+				65F0566E2082E49B00BACB0B /* MergeSort.c */,
+			);
+			path = MergeSort;
+			sourceTree = "<group>";
+		};
 		65F2F14B2054E3C3002F47BE /* List_Exercise */ = {
 			isa = PBXGroup;
 			children = (
@@ -477,7 +497,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65F71661207BADCA00A62301 /* SelectionSort.c in Sources */,
+				65F056712082EF0F00BACB0B /* MergeSort.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
